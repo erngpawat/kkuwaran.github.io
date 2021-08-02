@@ -1,5 +1,6 @@
 nav {
   display: flex;
+  position: sticky;
   justify-content: space-between;
   background-color: aquamarine;
 }
@@ -8,20 +9,26 @@ nav #logo {
 }
 nav #nav-links .dropdown {
   color: #000;
+  background-color: yellow;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 0.5rem;
+  padding: 1rem;
+  width: 6rem;
 }
 nav #nav-links .dropdown a {
   text-decoration: none;
 }
+nav #nav-links .dropdown .fas {
+  float: right;
+}
 nav #nav-links .dropdown-content {
-  list-style-type: none;
+  position: absolute;
   display: none;
 }
 nav #nav-links .dropdown-content a {
   display: block;
   background-color: #f1f1f1;
-  padding: 0.5rem;
+  padding: 1rem;
+  width: 6rem;
   cursor: pointer;
   text-decoration: none;
   color: #000;
