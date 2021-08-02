@@ -8,8 +8,7 @@ nav {
     }
 
     #nav-links {
-
-        button {
+        .dropdown {
             text-decoration: none;
             color: #000;
             font-family: Arial, Helvetica, sans-serif;
@@ -24,13 +23,13 @@ nav {
                 background-color: #f1f1f1;
                 padding: 0.5rem;
                 cursor: pointer;
-    
+
                 a {
                     text-decoration: none;
                     color: #000;
                     font-family: Arial, Helvetica, sans-serif;
                 }
-    
+
                 &:hover {
                     background-color: #555;
                 }
@@ -42,6 +41,5 @@ nav {
                 display: block;
             }
         }
-        
-      }
+    }
 }
