@@ -44,4 +44,19 @@ nav {
         }
         
       }
+
 }
+
+
+.hero-image {
+    display: flex;
+    background: url("../images/psf.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 80vh;
+    align-items: center;
+    }   
+
+
+
