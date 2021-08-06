@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+body {
+  margin: auto;
+  padding: 1.5rem;
+  background-color: #CFB991;
+  font-family: "Source Sans Pro", sans-serif;
+}
+body main {
+  margin: 0rem;
+}
+
+/*$base-gray: #393E41;
+$base-light-gray: #D3D0CB;
+$base-yellow: #E2C044;
+$base-teal: #587B7F;
+$base-dark-green: #1E2019;*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #CFB991;
+  margin: 1.5rem 0;
+}
+nav a {
+  color: black;
+}
+
+#hero {
+  background-color: #CFB991;
+  height: 80vh;
+  position: relative;
+}
+#hero .hero-content #hero-text {
+  color: black;
+  font-size: xx-large;
+  margin-bottom: 0.25rem;
+}
+#hero .hero-content #social-links {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+#hero .hero-content #social-links i {
+  margin-right: 0.25rem;
+}
+#hero .hero-content #about-link {
+  color: #474747;
+}
+#hero img {
+  position: absolute;
+  height: 75%;
+  right: -1.5rem;
+  bottom: 0;
+}
+
+#research {
+  color: black;
+  background-color: white;
+  margin: 0 -1.5rem;
+  padding: 1.5rem 1.5rem;
+  border-top: 1.5rem solid black;
+  border-bottom: 1.5rem solid black;
+}
+#research h1 {
+  margin: 0;
+}
+#research a {
+  color: #a3a3a3;
+}
+
+#reading-group {
+  color: black;
+  background-color: #CFB991;
+  margin: 0;
+}
+#reading-group a {
+  color: #474747;
+}
+
+/*# sourceMappingURL=style.css.map */
