@@ -6,6 +6,7 @@ $link-blue: #3e3efd;
 
 body {
     margin: auto;
+    color: white;
     background-color: $base-gray;
 
     main {
@@ -17,6 +18,10 @@ body {
 
 .container {
     padding: 0 1.5rem
+}
+
+.section-heading {
+    font-size: xx-large;
 }
 
 a {
@@ -33,16 +38,15 @@ nav {
     border-radius: 3rem;
 }
 
+/* home page */
+
 #hero {
     background-color: $base-gray;
     height: 80vh;
     position: relative;
 
     #hero-content {
-        color: white;
-
         #hero-text {
-            font-size: xx-large;
             margin-bottom: 0.25rem;
         }
 
@@ -85,17 +89,16 @@ nav {
 
 #reading-group {
     background-color: $base-gray;
-    color: white;
 
     a {
         color: white;
     }
 }
 
+/* about page */
 
-    
-
-
-
-
-
+#about-info {
+    a {
+        color: white;
+    }
+}
