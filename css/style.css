@@ -1,39 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
 body {
   margin: auto;
-  background-color: #CFB991;
+  background-color: #403f3f;
   font-family: "Source Sans Pro", sans-serif;
 }
 body main {
   margin: 0rem;
 }
 
-/*$base-gray: #393E41;
-$base-light-gray: #D3D0CB;
-$base-yellow: #E2C044;
-$base-teal: #587B7F;
-$base-dark-green: #1E2019;*/
 .container {
   padding: 0 1.5rem;
+}
+
+a {
+  color: #3e3efd;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #CFB991;
-  margin: 1.5rem 0;
-}
-nav a {
-  color: black;
+  background-color: #202020;
+  padding: 1.5rem;
+  margin: 1.5rem 0.5rem;
+  border-radius: 3rem;
 }
 
 #hero {
-  background-color: #CFB991;
+  background-color: #403f3f;
   height: 80vh;
   position: relative;
 }
+#hero #hero-content {
+  color: white;
+}
 #hero #hero-content #hero-text {
-  color: black;
   font-size: xx-large;
   margin-bottom: 0.25rem;
 }
@@ -43,9 +43,6 @@ nav a {
 }
 #hero #hero-content #social-links i {
   margin-right: 0.25rem;
-}
-#hero #hero-content #about-link {
-  color: #474747;
 }
 #hero img {
   position: absolute;
@@ -64,17 +61,13 @@ nav a {
 #research h1 {
   margin: 0;
 }
-#research a {
-  color: #a3a3a3;
-}
 
 #reading-group {
-  color: black;
-  background-color: #CFB991;
-  margin: 0;
+  background-color: #403f3f;
+  color: white;
 }
 #reading-group a {
-  color: #474747;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
