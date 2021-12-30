@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
 body {
   margin: auto;
+  color: white;
   background-color: #403f3f;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -10,6 +11,10 @@ body main {
 
 .container {
   padding: 0 1.5rem;
+}
+
+.section-heading {
+  font-size: xx-large;
 }
 
 a {
@@ -25,16 +30,13 @@ nav {
   border-radius: 3rem;
 }
 
+/* home page */
 #hero {
   background-color: #403f3f;
   height: 80vh;
   position: relative;
 }
-#hero #hero-content {
-  color: white;
-}
 #hero #hero-content #hero-text {
-  font-size: xx-large;
   margin-bottom: 0.25rem;
 }
 #hero #hero-content #social-links {
@@ -68,9 +70,13 @@ nav {
 
 #reading-group {
   background-color: #403f3f;
-  color: white;
 }
 #reading-group a {
+  color: white;
+}
+
+/* about page */
+#about-info a {
   color: white;
 }
 
