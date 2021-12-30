@@ -6,7 +6,6 @@ $base-light-gray: #a3a3a3;
 
 body {
     margin: auto;
-    padding: 1.5rem;
     background-color: $base-gold;
 
     main {
@@ -21,6 +20,10 @@ $base-light-gray: #D3D0CB;
 $base-yellow: #E2C044;
 $base-teal: #587B7F;
 $base-dark-green: #1E2019;*/
+
+.container {
+    padding: 0 1.5rem
+}
 
 
 nav {
@@ -39,7 +42,7 @@ nav {
     height: 80vh;
     position: relative;
 
-    .hero-content {
+    #hero-content {
 
         #hero-text {
             color: black;

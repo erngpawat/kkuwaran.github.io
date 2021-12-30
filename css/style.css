@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
 body {
   margin: auto;
-  padding: 1.5rem;
   background-color: #CFB991;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -14,6 +13,10 @@ $base-light-gray: #D3D0CB;
 $base-yellow: #E2C044;
 $base-teal: #587B7F;
 $base-dark-green: #1E2019;*/
+.container {
+  padding: 0 1.5rem;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -29,19 +32,19 @@ nav a {
   height: 80vh;
   position: relative;
 }
-#hero .hero-content #hero-text {
+#hero #hero-content #hero-text {
   color: black;
   font-size: xx-large;
   margin-bottom: 0.25rem;
 }
-#hero .hero-content #social-links {
+#hero #hero-content #social-links {
   margin-top: 1rem;
   margin-bottom: 0.25rem;
 }
-#hero .hero-content #social-links i {
+#hero #hero-content #social-links i {
   margin-right: 0.25rem;
 }
-#hero .hero-content #about-link {
+#hero #hero-content #about-link {
   color: #474747;
 }
 #hero img {
