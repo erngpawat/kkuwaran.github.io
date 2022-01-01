@@ -54,6 +54,11 @@ nav {
     #hero-content {
         #hero-text {
             margin-bottom: 0.25rem;
+            font-size: 3.5rem;
+        }
+
+        #hero-break {
+            display: none;
         }
 
         #social-links {
@@ -106,5 +111,43 @@ nav {
 #about-info {
     a {
         color: white;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    nav {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    #hero {
+        height: 100vh;
+    
+        #hero-content {
+            margin-top: 5rem;
+            margin-left: 6rem;
+            display: inline-block;
+
+            #hero-text {
+                margin-bottom: 0.25rem;
+            }
+
+            #hero-break {
+                display: block;
+                margin-top: -1rem;
+            }
+
+            #social-links {
+                font-size: 1.5rem;
+            }
+        }
+
+        img {
+            height: 90%;
+        }
+    }
+
+    #research {
+        display: none;
     }
 }
