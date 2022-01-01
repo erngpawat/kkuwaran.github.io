@@ -99,11 +99,11 @@ nav div {
   #hero #hero-content {
     margin-top: 10rem;
     margin-left: 6rem;
-    font-size: 3.5rem;
     display: inline-block;
   }
   #hero #hero-content #hero-text {
     margin-bottom: 0.25rem;
+    font-size: 3.5rem;
   }
   #hero #hero-content #hero-break {
     display: block;
