@@ -40,10 +40,10 @@ nav div {
   background-color: #403f3f;
   height: 80vh;
   position: relative;
+  z-index: -1;
 }
 #hero #hero-content #hero-text {
   margin-bottom: 0.25rem;
-  font-size: 3.5rem;
 }
 #hero #hero-content #hero-break {
   display: none;
@@ -55,6 +55,9 @@ nav div {
 #hero #hero-content #social-links i {
   margin-right: 0.25rem;
   color: white;
+}
+#hero #hero-research {
+  display: none;
 }
 #hero img {
   position: absolute;
@@ -75,15 +78,6 @@ nav div {
   font-size: 1.2rem;
 }
 
-#reading-group {
-  background-color: #403f3f;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-#reading-group a {
-  color: white;
-}
-
 /* about page */
 #about-info a {
   color: white;
@@ -93,14 +87,19 @@ nav div {
   nav {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    margin: 2.5rem 1.5rem 0 1.5rem;
+    font-size: 1.5rem;
+    height: 4vh;
   }
 
   #hero {
-    height: 100vh;
+    height: 95vh;
+    margin-top: -5rem;
   }
   #hero #hero-content {
-    margin-top: 5rem;
+    margin-top: 10rem;
     margin-left: 6rem;
+    font-size: 3.5rem;
     display: inline-block;
   }
   #hero #hero-content #hero-text {
@@ -113,8 +112,22 @@ nav div {
   #hero #hero-content #social-links {
     font-size: 1.5rem;
   }
+  #hero #hero-research {
+    display: inline-block;
+    color: #ebebeb;
+    font-size: 1.25rem;
+    position: absolute;
+    left: 7.5rem;
+    bottom: 1.5rem;
+  }
+  #hero #hero-research #hero-interests {
+    font-weight: 300;
+    color: #cfcfcf;
+    margin-top: -1.25rem;
+  }
   #hero img {
-    height: 90%;
+    height: 80%;
+    right: 1rem;
   }
 
   #research {

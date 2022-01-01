@@ -50,11 +50,11 @@ nav {
     background-color: $base-gray;
     height: 80vh;
     position: relative;
+    z-index: -1;
 
     #hero-content {
         #hero-text {
             margin-bottom: 0.25rem;
-            font-size: 3.5rem;
         }
 
         #hero-break {
@@ -70,6 +70,10 @@ nav {
                 color: white;
             }
         }
+    }
+
+    #hero-research {
+        display: none;
     }
     
 
@@ -96,15 +100,6 @@ nav {
     }
 }
 
-#reading-group {
-    background-color: $base-gray;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-
-    a {
-        color: white;
-    }
-}
 
 /* about page */
 
@@ -118,14 +113,19 @@ nav {
     nav {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
+        margin: 2.5rem 1.5rem 0 1.5rem;
+        font-size: 1.5rem;
+        height: 4vh;
     }
 
     #hero {
-        height: 100vh;
+        height: 95vh;
+        margin-top: -5rem;
     
         #hero-content {
-            margin-top: 5rem;
+            margin-top: 10rem;
             margin-left: 6rem;
+            font-size: 3.5rem;
             display: inline-block;
 
             #hero-text {
@@ -142,8 +142,24 @@ nav {
             }
         }
 
+        #hero-research {
+            display: inline-block;
+            color:#ebebeb;
+            font-size: 1.25rem;
+            position: absolute;
+            left: 7.5rem;
+            bottom: 1.5rem;
+
+            #hero-interests {
+                font-weight: 300;
+                color: #cfcfcf;
+                margin-top: -1.25rem;
+            }
+        }
+
         img {
-            height: 90%;
+            height: 80%;
+            right: 1rem;
         }
     }
 
