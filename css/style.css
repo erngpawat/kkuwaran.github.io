@@ -92,8 +92,7 @@ nav a:hover {
   display: none;
 }
 #hero #hero-content #social-links {
-  margin-top: 1rem;
-  margin-bottom: 0.25rem;
+  margin: 1rem 0 0.25rem 0.15rem;
 }
 #hero #hero-content #social-links i {
   margin-right: 0.25rem;
