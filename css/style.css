@@ -3,6 +3,7 @@ body {
   margin: auto;
   color: white;
   min-width: 350px;
+  max-width: 1024px;
   background-color: #403f3f;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -26,7 +27,7 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: #202020;
-  margin: 1.5rem 0.5rem 3rem 0.5rem;
+  margin: 1.5rem 0.5rem;
   min-height: 3.5rem;
   border-radius: 3rem;
   font-weight: bold;
@@ -52,6 +53,9 @@ nav div:hover {
   background-color: #403f3f;
   padding: 0 1.5rem;
   height: 80vh;
+  min-height: 650px;
+  max-height: 800px;
+  overflow: hidden;
   position: relative;
   z-index: -1;
 }
@@ -77,6 +81,7 @@ nav div:hover {
   height: 75%;
   padding: 0;
   bottom: 0;
+  right: 0.25rem;
 }
 
 #research {
@@ -117,42 +122,56 @@ h2 {
   margin-top: 3rem;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 600px) {
   nav {
-    margin: 2.5rem 1.5rem 4.5rem 1.5rem;
-    font-size: 1.5rem;
+    margin: 2.5rem 1.5rem 3rem 1.5rem;
+    font-size: 1.125rem;
   }
 
   .container {
-    padding: 0 5.5rem;
+    padding: 0 3.5rem;
+  }
+
+  #hero #hero-content {
+    margin-left: 2rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  nav {
+    margin: 2.5rem 1.5rem 4.5rem 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .container {
+    padding: 0 4.5rem;
   }
 
   #hero {
     height: 100vh;
-    margin-top: -9rem;
+    margin-top: -12rem;
   }
   #hero #hero-content {
-    margin-top: 10rem;
-    margin-left: 6rem;
+    margin-top: 13rem;
+    margin-left: 2rem;
     display: inline-block;
   }
   #hero #hero-content #hero-text {
     margin-bottom: 0.25rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   #hero #hero-content #hero-break {
     display: block;
     margin-top: -1rem;
   }
   #hero #hero-content #social-links {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   #hero #hero-research {
     display: inline-block;
     color: #ebebeb;
-    font-size: 1.25rem;
+    font-size: 1rem;
     position: absolute;
-    left: 7.625rem;
+    left: 3.5rem;
     bottom: 1.5rem;
   }
   #hero #hero-research #hero-interests {
@@ -160,12 +179,49 @@ h2 {
     color: #cfcfcf;
     margin-top: -1.25rem;
   }
-  #hero img {
-    height: 80%;
-  }
 
   #research {
     display: none;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .container {
+    padding: 0 5.5rem;
+  }
+
+  #hero {
+    margin-top: -9rem;
+  }
+  #hero #hero-content {
+    margin-top: 10rem;
+    margin-left: 3rem;
+  }
+  #hero #hero-research {
+    left: 4.5rem;
+  }
+  #hero img {
+    height: 80%;
+    right: 1rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #hero #hero-content {
+    margin-left: 4.5rem;
+  }
+  #hero #hero-content #hero-text {
+    font-size: 3.5rem;
+  }
+  #hero #hero-content #social-links {
+    font-size: 1.5rem;
+  }
+  #hero #hero-research {
+    font-size: 1.25rem;
+    position: absolute;
+    left: 6.125rem;
+    bottom: 1.5rem;
+  }
+  #hero img {
+    right: 2rem;
   }
 }
 
