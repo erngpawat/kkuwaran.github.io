@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: $nav-gray;
-    margin: 1.5rem 0.5rem;
+    margin: 1.5rem 0.5rem 3rem 0.5rem;
     min-height: 3.5rem;
     border-radius: 3rem;
     font-weight: bold;
@@ -120,10 +120,20 @@ nav {
 
 /* about page */
 
+.about {
+    margin-bottom: 2.5rem;
+}
+
 #about-info {
     a {
         color: white;
     }
+}
+
+
+/* publications page */
+li {
+    margin-bottom: 2rem;
 }
 
 
