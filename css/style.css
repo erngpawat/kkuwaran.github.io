@@ -137,8 +137,7 @@ nav a:hover {
 }
 @media only screen and (min-width: 600px) {
   #hero {
-    height: 60vh;
-    min-height: 300px;
+    min-height: 600px;
   }
   #hero #hero-content {
     margin-left: 2rem;
