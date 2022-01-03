@@ -38,9 +38,10 @@ nav {
     border-radius: 3rem;
     font-weight: bold;
 
-    div {
+    a {
         flex-grow: 1;
         text-align: center;
+        text-decoration: none;
         line-height: 3.5rem;
 
         &:first-child {
