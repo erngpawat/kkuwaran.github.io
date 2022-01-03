@@ -2,6 +2,7 @@
 body {
   margin: auto;
   color: white;
+  min-width: 350px;
   background-color: #403f3f;
   font-family: "Source Sans Pro", sans-serif;
 }

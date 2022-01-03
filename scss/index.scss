@@ -8,6 +8,7 @@ $link-blue: #5387f7;
 body {
     margin: auto;
     color: white;
+    min-width: 350px;
     background-color: $base-gray;
 
     main {
