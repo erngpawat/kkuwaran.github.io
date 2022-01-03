@@ -1,0 +1,167 @@
+@use 'colors';
+
+/* home page */
+
+#hero {
+    background-color: colors.$base-gray;
+    padding: 0 1.5rem;
+    height: 80vh;
+    min-height: 650px;
+    max-height: 800px;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+
+    #hero-content {
+        #hero-text {
+            margin-bottom: 0.25rem;
+        }
+
+        #hero-break {
+            display: none;
+        }
+
+        #social-links {
+            margin-top: 1rem;
+            margin-bottom: 0.25rem;
+
+            i {
+                margin-right: 0.25rem;
+                color: white;
+            }
+        }
+    }
+
+    #hero-research {
+        display: none;
+    }
+    
+
+    img {
+        position: absolute;
+        height: 75%;
+        padding: 0;
+        bottom: 0;
+        right: 0.25rem;
+    }
+}
+
+
+#research {
+    color: black;
+    background-color: white;
+    padding: 3rem 1.5rem;
+
+    h1 {
+        margin: 0;
+    }
+
+    ul {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    #hero {
+        #hero-content {
+            margin-left: 2rem;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    #hero {
+        height: 100vh;
+        margin-top: -12rem;
+    
+        #hero-content {
+            margin-top: 13rem;
+            margin-left: 2rem;
+            display: inline-block;
+
+            #hero-text {
+                margin-bottom: 0.25rem;
+                font-size: 3rem;
+            }
+
+            #hero-break {
+                display: block;
+                margin-top: -1rem;
+            }
+
+            #social-links {
+                font-size: 1.25rem;
+            }
+        }
+
+        #hero-research {
+            display: inline-block;
+            color: colors.$hero-interests-header-gray;
+            font-size: 1rem;
+            position: absolute;
+            left: 3.5rem;
+            bottom: 1.5rem;
+
+            #hero-interests {
+                font-weight: 300;
+                color: colors.$hero-interests-child-gray;
+                margin-top: -1.25rem;
+            }
+        }
+    }
+
+    #research {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 850px) {
+    #hero {
+        margin-top: -9rem;
+    
+        #hero-content {
+            margin-top: 10rem;
+            margin-left: 3rem;
+        }
+
+        #hero-research {
+            left: 4.5rem;
+        }
+
+        img {
+            height: 80%;
+            right: 1rem;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    #hero {
+        #hero-content {
+            margin-left: 4.5rem;
+
+            #hero-text {
+                font-size: 3.5rem;
+            }
+
+            #social-links {
+                font-size: 1.5rem;
+            }
+        }
+
+        #hero-research {
+            font-size: 1.25rem;
+            position: absolute;
+            left: 6.125rem;
+            bottom: 1.5rem;
+        }
+
+        img {
+            right: 2rem;
+        }
+    }
+}
