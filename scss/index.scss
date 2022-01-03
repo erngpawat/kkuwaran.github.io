@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap');
 
 $base-gray: #403f3f;
+$hover-gray: #333333;
 $nav-gray: #202020;
 $link-blue: #5387f7;
 
@@ -33,14 +34,28 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: $nav-gray;
-    padding: 1.5rem;
     margin: 1.5rem 0.5rem;
+    min-height: 3.5rem;
     border-radius: 3rem;
     font-weight: bold;
 
     div {
         flex-grow: 1;
         text-align: center;
+        line-height: 3.5rem;
+
+        &:first-child {
+            border-radius: 3rem 0 0 3rem;
+        }
+
+        &:last-child {
+            border-radius: 0 3rem 3rem 0;
+        }
+
+        &:hover {
+            background-color: $hover-gray;
+            cursor: pointer;
+        }
     }
 }
 
@@ -80,7 +95,7 @@ nav {
     img {
         position: absolute;
         height: 75%;
-        right: -1.5rem;
+        padding: 0;
         bottom: 0;
     }
 }
@@ -115,11 +130,10 @@ nav {
         margin-right: 1.5rem;
         margin: 2.5rem 1.5rem 0 1.5rem;
         font-size: 1.5rem;
-        height: 4vh;
     }
 
     #hero {
-        height: 95vh;
+        height: 100vh;
         margin-top: -5rem;
     
         #hero-content {
@@ -147,7 +161,7 @@ nav {
             color:#ebebeb;
             font-size: 1.25rem;
             position: absolute;
-            left: 7.5rem;
+            left: 7.625rem;
             bottom: 1.5rem;
 
             #hero-interests {
@@ -159,7 +173,6 @@ nav {
 
         img {
             height: 80%;
-            right: 1rem;
         }
     }
 
