@@ -32,18 +32,19 @@ nav {
   border-radius: 3rem;
   font-weight: bold;
 }
-nav div {
+nav a {
   flex-grow: 1;
   text-align: center;
+  text-decoration: none;
   line-height: 3.5rem;
 }
-nav div:first-child {
+nav a:first-child {
   border-radius: 3rem 0 0 3rem;
 }
-nav div:last-child {
+nav a:last-child {
   border-radius: 0 3rem 3rem 0;
 }
-nav div:hover {
+nav a:hover {
   background-color: #333333;
   cursor: pointer;
 }
@@ -202,7 +203,7 @@ nav div:hover {
   }
 }
 /* about page */
-.about {
+#about section {
   margin-bottom: 2.5rem;
 }
 
@@ -211,7 +212,7 @@ nav div:hover {
 }
 
 /* publications page */
-li {
+#publications li {
   margin-bottom: 2rem;
 }
 
