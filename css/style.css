@@ -48,6 +48,31 @@ nav div:hover {
   cursor: pointer;
 }
 
+@media only screen and (min-width: 600px) {
+  nav {
+    margin: 2.5rem 1.5rem 3rem 1.5rem;
+    font-size: 1.125rem;
+  }
+
+  .container {
+    padding: 0 3.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  nav {
+    margin: 2.5rem 1.5rem 4.5rem 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .container {
+    padding: 0 4.5rem;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .container {
+    padding: 0 5.5rem;
+  }
+}
 /* home page */
 #hero {
   background-color: #403f3f;
@@ -96,56 +121,12 @@ nav div:hover {
   font-size: 1.2rem;
 }
 
-/* about page */
-.about {
-  margin-bottom: 2.5rem;
-}
-
-#about-info a {
-  color: white;
-}
-
-/* publications page */
-li {
-  margin-bottom: 2rem;
-}
-
-/* reading group page */
-h2 {
-  margin-top: 3rem;
-}
-
-#discussion-schedule h2 {
-  margin-top: 5rem;
-}
-#discussion-schedule h3 {
-  margin-top: 3rem;
-}
-
 @media only screen and (min-width: 600px) {
-  nav {
-    margin: 2.5rem 1.5rem 3rem 1.5rem;
-    font-size: 1.125rem;
-  }
-
-  .container {
-    padding: 0 3.5rem;
-  }
-
   #hero #hero-content {
     margin-left: 2rem;
   }
 }
 @media only screen and (min-width: 768px) {
-  nav {
-    margin: 2.5rem 1.5rem 4.5rem 1.5rem;
-    font-size: 1.25rem;
-  }
-
-  .container {
-    padding: 0 4.5rem;
-  }
-
   #hero {
     height: 100vh;
     margin-top: -12rem;
@@ -185,10 +166,6 @@ h2 {
   }
 }
 @media only screen and (min-width: 850px) {
-  .container {
-    padding: 0 5.5rem;
-  }
-
   #hero {
     margin-top: -9rem;
   }
@@ -223,6 +200,31 @@ h2 {
   #hero img {
     right: 2rem;
   }
+}
+/* about page */
+.about {
+  margin-bottom: 2.5rem;
+}
+
+#about-info a {
+  color: white;
+}
+
+/* publications page */
+li {
+  margin-bottom: 2rem;
+}
+
+/* reading group page */
+h2 {
+  margin-top: 3rem;
+}
+
+#discussion-schedule h2 {
+  margin-top: 5rem;
+}
+#discussion-schedule h3 {
+  margin-top: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,90 @@
+@use 'colors';
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap');
+
+body {
+    margin: auto;
+    color: white;
+    min-width: 350px;
+    max-width: 1024px;
+    background-color: colors.$base-gray;
+
+    main {
+        margin: 0rem;
+    }
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    padding: 0 1.5rem
+}
+
+.section-heading {
+    font-size: xx-large;
+}
+
+a {
+    color: colors.$link-blue;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: colors.$nav-gray;
+    margin: 1.5rem 0.5rem;
+    min-height: 3.5rem;
+    border-radius: 3rem;
+    font-weight: bold;
+
+    div {
+        flex-grow: 1;
+        text-align: center;
+        line-height: 3.5rem;
+
+        &:first-child {
+            border-radius: 3rem 0 0 3rem;
+        }
+
+        &:last-child {
+            border-radius: 0 3rem 3rem 0;
+        }
+
+        &:hover {
+            background-color: colors.$hover-gray;
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    nav {
+        margin: 2.5rem 1.5rem 3rem 1.5rem;
+        font-size: 1.125rem;
+    } 
+
+    .container {
+        padding: 0 3.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    nav {
+        margin: 2.5rem 1.5rem 4.5rem 1.5rem;
+        font-size: 1.25rem;
+    }
+
+    .container {
+        padding: 0 4.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 850px) {
+    .container {
+        padding: 0 5.5rem;
+    }
+}
