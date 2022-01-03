@@ -49,6 +49,7 @@ nav div:hover {
 /* home page */
 #hero {
   background-color: #403f3f;
+  padding: 0 1.5rem;
   height: 80vh;
   position: relative;
   z-index: -1;
@@ -96,15 +97,17 @@ nav div:hover {
 
 @media only screen and (min-width: 1024px) {
   nav {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin: 2.5rem 1.5rem 0 1.5rem;
+    margin: 2.5rem 1.5rem 4.5rem 1.5rem;
     font-size: 1.5rem;
+  }
+
+  .container {
+    padding: 0 5.5rem;
   }
 
   #hero {
     height: 100vh;
-    margin-top: -5rem;
+    margin-top: -9rem;
   }
   #hero #hero-content {
     margin-top: 10rem;
