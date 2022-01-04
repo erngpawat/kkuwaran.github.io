@@ -24,7 +24,7 @@ body main {
 }
 
 a {
-  color: #5387f7;
+  color: #a8cfff;
 }
 
 nav {
@@ -40,6 +40,7 @@ nav a {
   flex-grow: 1;
   text-align: center;
   text-decoration: none;
+  color: #5387f7;
   line-height: 3.5rem;
 }
 nav a:first-child {
