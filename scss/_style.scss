@@ -46,6 +46,7 @@ nav {
         flex-grow: 1;
         text-align: center;
         text-decoration: none;
+        color: colors.$nav-blue;
         line-height: 3.5rem;
 
         &:first-child {
